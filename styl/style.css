@@ -213,3 +213,54 @@
     margin-top: 5px;
     margin-bottom: 10px;
 }
+/* নতুন সেকশন শেষ সেকশন */
+
+.Our-Sponspors{
+      max-width: 1440px;
+      margin: 0 auto;
+}
+.Our-Sponspors .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Our-Sponspors .text h1{
+    font-size: 45px;
+    width: 700;
+    color: #131313;
+}
+
+.Our-Sponspors .text p{
+    font-size: 16px;
+    width: 400;
+    color: #727272;
+}
+.Our-Sponspors .img {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    filter: grayscale();
+    margin-bottom: 130px;
+}
+
+
+/* ফুটার */
+
+.footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    margin-bottom: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 20px;
+    width: 400;
+}
